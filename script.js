@@ -3,7 +3,14 @@ var play = confirm("Would you like to play Rock Paper Scissors");
 console.log(play);
 
 var playerChoice = prompt("For ROCK: r, For SCISSOR: s, For Paper: p");
-var computerChoice = 'p';
+
+var choices = ['p', 'r', 's'];
+var computerChoice = choices[Math.floor(Math.random()*3)];
+console.log("playerchoice " + playerChoice);
+console.log("computerchoice " + computerChoice);
+
+
+
 
 if(playerChoice === 'r'){
 
