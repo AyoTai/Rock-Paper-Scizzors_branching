@@ -1,4 +1,8 @@
-var playerChoice = 'r';
+var play = confirm("Would you like to play Rock Paper Scissors");
+
+console.log(play);
+
+var playerChoice = prompt("For ROCK: r, For SCISSOR: s, For Paper: p");
 var computerChoice = 'p';
 
 if(playerChoice === 'r'){
